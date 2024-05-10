@@ -1,0 +1,133 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+    .logo{
+    width: 5%;
+    position: absolute;
+    right: 83%;
+    }
+
+    .menu {
+    background-color: rgb(252, 252, 252);
+    width: 100%;
+    height: 9%;
+    top: 0%;
+    right: 0;
+    position: fixed;
+    z-index: 999; 
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-top: 4px solid rgb(4, 148, 153);
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 20px; 
+    }
+
+    .opçoes {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-grow: 1; 
+    }
+
+
+    .opçoes ul {
+    list-style-type: none; 
+    margin: 0px; 
+    padding: 0px; 
+    }
+
+    .opçoes ul li {
+    display: inline;
+    }
+
+    .opçoes li a {
+    padding: 15px;
+    color: #049292;
+    font-weight: bold;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    }
+
+    .opçoes li a:hover {
+    border-bottom: 2px solid #05a598;
+    }
+
+    .imghome{
+    width: 100% ;
+    height: 100%;
+    right: 0%;
+    }
+
+    .home{
+    width: 100%;
+    height: 60%;
+    top:9%;
+    position: absolute;
+    background-color: #d6d6d8;
+    left: 0%;
+    
+    }
+
+    .bt{
+        padding: 10px;
+        color:#049292;
+        font-weight: bold;
+        font-size: 15px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-decoration: none;
+        border-radius: 30px;
+        background-color: rgb(255, 255, 255);
+        border-style:solid;
+        border-color: #059797;
+    }
+    .bt:hover{
+        color: rgb(255, 255, 255);
+        background-color:#046b66;
+        border-color: #038a7f;
+    }
+
+    .bt1{
+        padding: 10px;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 15px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-decoration: none;
+        border-radius: 30px;
+        background-color:#049292;
+        border-style: none;
+        width: 170px;
+    }
+
+    .bt1:hover{
+        color: rgb(255, 255, 255);
+        background-color:#046b66;
+        border-color: #038a7f;
+        border-bottom: 5px solid #ced1d1;
+    }
+
+    .serviços{
+        position: absolute;
+        width:100% ;
+        height: 30% ;
+        top: 70% ;
+        background-color: #eaf0f0;
+    }
+
+    .texto{
+        position: absolute;
+        top: 30%;
+        left: 25%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        font-size:14%;
+    }
+
+    .textoc{
+        color: rgb(3, 177, 177);
+    }
