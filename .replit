@@ -1,0 +1,8 @@
+modules = ["web"]
+run = ">configuration"
+
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", ">configuration"]
